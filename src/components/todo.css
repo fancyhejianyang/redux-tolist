@@ -1,0 +1,38 @@
+li{
+  position: relative;
+}
+li input[type='checkbox']{
+  width: 25px;
+  height: 25px;
+  margin:0px;
+  position: absolute;
+  top:3px;
+  left:10px;
+}
+li p{
+  display: inline-block;
+  position: absolute;
+  width: calc(100% - 100px);
+  margin:0px;
+  height: 30px;
+  line-height: 30px;
+  top:0px;
+}
+p[contentEditable='true']{
+  white-space: nowrap;
+  overflow: hidden;
+}
+li span{
+  position: absolute;
+  width: 14px;
+  height: 12px;
+  line-height: 12px;
+  text-align: center;
+  right: 10px;
+  top:4px;
+  border-radius: 10px;
+  background-color: #ccc;
+  color:#fff;
+  border:5px double #fff;
+  cursor: pointer;
+}
